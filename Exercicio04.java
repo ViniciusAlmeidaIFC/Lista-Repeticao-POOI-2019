@@ -1,6 +1,6 @@
 package com;
 
-public class Exercicio4 {
+public class Exercicio04 {
 
 	public static void main(String[] args) {
 		float pesA = 80000;
@@ -15,7 +15,7 @@ public class Exercicio4 {
 			qtdAnos++;
 		}while(pesA <= pesB);
 		
-		System.out.println("A quantidade necessária é "+qtdAnos+ " anos");
+		System.out.println("A quantidade necessÃ¡ria Ã© "+qtdAnos+ " anos");
 		
 	}
 
