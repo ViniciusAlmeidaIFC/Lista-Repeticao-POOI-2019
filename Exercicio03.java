@@ -2,7 +2,7 @@ package com;
 
 import java.util.Scanner;
 
-public class Exercicio3 {
+public class Exercicio03 {
 
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
@@ -21,7 +21,7 @@ public class Exercicio3 {
 		}while (!("m".equalsIgnoreCase(sexo) || "f".equalsIgnoreCase(sexo)));
 		
 		do {
-			System.out.print("Informe seu Estado Cívil s-Solteiro(a), c-Casado(a), v-Viúvo(a) ou d-Divorciado(a): ");
+			System.out.print("Informe seu Estado CÃ­vil s-Solteiro(a), c-Casado(a), v-ViÃºvo(a) ou d-Divorciado(a): ");
 			estadoCivil = entrada.nextLine();
 		}while (!("s".equalsIgnoreCase(estadoCivil) ||"c".equalsIgnoreCase(estadoCivil) || "v".equalsIgnoreCase(estadoCivil) || "d".equalsIgnoreCase(estadoCivil)));
 		 
