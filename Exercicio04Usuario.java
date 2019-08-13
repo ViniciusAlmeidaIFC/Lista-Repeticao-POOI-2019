@@ -2,7 +2,7 @@ package com;
 
 import java.util.Scanner;
 
-public class Exercicio4Usuario {
+public class Exercicio04Usuario {
 
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
@@ -14,19 +14,19 @@ public class Exercicio4Usuario {
 			float taxaB = 0;
 			int qtdAnos = 0;
 			do {
-				System.out.print("Informe a quantidade de pessoas do país A: ");
+				System.out.print("Informe a quantidade de pessoas do paÃ­s A: ");
 				pesA = entrada.nextFloat();
 			} while (pesA < 0);
 			do {
-				System.out.print("Informe a quantidade de pessoas do país B: ");
+				System.out.print("Informe a quantidade de pessoas do paÃ­s B: ");
 				pesB = entrada.nextFloat();
 			} while (pesB < 0 || pesB < pesA);
 			do {
-				System.out.print("Informe a taxa de crescimento (%) do país A: ");
+				System.out.print("Informe a taxa de crescimento (%) do paÃ­s A: ");
 				taxaA = entrada.nextFloat();
 			} while (taxaA < 0);
 			do {
-				System.out.print("Informe a taxa de crescimento (%) do país B: ");
+				System.out.print("Informe a taxa de crescimento (%) do paÃ­s B: ");
 				taxaB = entrada.nextFloat();
 			} while (taxaB < 0 || taxaB >= taxaA);
 
@@ -38,9 +38,9 @@ public class Exercicio4Usuario {
 				qtdAnos++;
 			} while (pesA <= pesB);
 
-			System.out.println("A quantidade necessária é " + qtdAnos + " anos");
+			System.out.println("A quantidade necessÃ¡ria Ã© " + qtdAnos + " anos");
 			do {
-				System.out.print("\n Deseja repetir? (s - Sim | n - Não): ");
+				System.out.print("\n Deseja repetir? (s - Sim | n - NÃ£o): ");
 				opcao = entrada.next().charAt(0);
 			} while (opcao != 's' && opcao != 'n');
 		} while (opcao == 's');
